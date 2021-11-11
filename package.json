@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "jonahblog",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "A blog based on the gatsby starter to get up and developing quickly with Gatsby",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "jonah",
   "dependencies": {
     "@deckdeckgo/highlight-code": "^3.4.0",
     "@mdx-js/mdx": "^1.6.22",
@@ -18,9 +18,9 @@
     "gatsby-plugin-react-helmet": "^4.14.0",
     "gatsby-plugin-sharp": "^3.14.1",
     "gatsby-remark-highlight-code": "^3.0.1",
-    "gatsby-remark-prismjs": "^6.0.0",
+    "gatsby-remark-prismjs": "^5.0.0",
     "gatsby-source-filesystem": "^3.14.0",
-    "gatsby-transformer-remark": "^5.0.0",
+    "gatsby-transformer-remark": "^4.0.0",
     "gatsby-transformer-sharp": "^3.14.0",
     "postcss": "^8.3.9",
     "postcss-import": "^14.0.2",
@@ -50,9 +50,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "url": "https://github.com/jonahdc/blog"
   },
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/jonahdc/blog/issues"
   }
 }
