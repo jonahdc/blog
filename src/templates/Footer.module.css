@@ -1,0 +1,6 @@
+@import "css/shared.css";
+@import "css/wrapper.css";
+
+.footer {
+  @apply wrapper pb-10 border-2 w-full text-secondary font-light text-sm;
+}

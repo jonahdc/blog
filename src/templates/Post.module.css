@@ -1,0 +1,57 @@
+@import "css/shared.css";
+@import "css/wrapper.css";
+
+.post {
+}
+
+.post a {
+  @apply border-0 border-dotted border-b-2 hover:text-secondary border-accent hover:border-secondary ease-in-out duration-500;
+}
+
+.title {
+  @apply m-0 p-0 text-4xl;
+}
+
+.date {
+  @apply text-sm;
+  color: theme("colors.accent");
+}
+
+.excerpt {
+  @apply text-sm mb-2;
+}
+
+.tags {
+  @apply p-1 inline-block uppercase text-xs font-bold shadow-inner;
+}
+
+.post-footer {
+  @apply wrapper grid grid-cols-6 my-10;
+}
+
+.sub-footer {
+  @apply grid grid-cols-2;
+}
+
+.post-footer .previous,
+.post-footer .next {
+  @apply font-bold;
+}
+
+.post-footer .previous {
+  @apply col-span-2;
+}
+
+.post-footer .next {
+  @apply text-right col-end-7 col-span-2;
+}
+
+.post-footer .previous::after {
+  @apply block font-normal text-xs;
+  content: "Previous";
+}
+
+.post-footer .next::after {
+  @apply block font-normal text-xs text-right;
+  content: "Next";
+}

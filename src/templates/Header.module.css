@@ -1,0 +1,6 @@
+@import "css/shared.css";
+@import "css/wrapper.css";
+
+.header {
+  @apply wrapper w-full py-8 bg-white;
+}

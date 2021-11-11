@@ -1,0 +1,58 @@
+@import "css/wrapper.css";
+
+.container {
+  @apply flex flex-col h-screen;
+}
+
+.body {
+  @apply wrapper flex-grow;
+}
+
+.div-short-vertical {
+  @apply theme-div-pattern w-px h-24 mx-10 border-2;
+}
+
+.div-short {
+  @apply h-px my-10 w-28 m-auto theme-div-pattern;
+}
+
+.div-full {
+  @apply h-px my-10 w-full m-auto theme-div-pattern;
+}
+
+.theme-div-pattern {
+  @apply block;
+  content: "";
+  background: repeating-linear-gradient(
+    -45deg,
+    #ffbf00,
+    #ffbf00 20%,
+    #0f0f0f 20%,
+    #0f0f0f 40%,
+    #2274a5 40%,
+    #2274a5 60%,
+    #32936f 60%,
+    #32936f 80%,
+    #e83f6f 80%,
+    #e83f6f 100%
+  );
+}
+/* 
+.div-short::after {
+  @apply theme-div-pattern;
+} */
+
+.logo-container {
+  @apply block transform hover:rotate-45;
+  width: 2rem;
+  height: 2rem;
+  text-align: center;
+}
+
+.random-shape-a {
+  @apply w-8 h-8 absolute theme-div-pattern transform rotate-45 hover:rotate-45 mix-blend-darken rounded-lg;
+}
+
+.random-shape-b {
+  @apply w-8 h-8 absolute theme-div-pattern hover:-rotate-45 transform mix-blend-darken rounded-lg;
+}
